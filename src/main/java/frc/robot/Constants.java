@@ -13,7 +13,30 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public final class Constants {
+
   public static class OperatorConstants {
-    public static final int kDriverControllerPort = 0;
+    
+  }
+
+  public static class DriveConstants {    
+    public static final int DRIVER_CONTROLLER = 0;
+    public static final int LEFTSTICK_Y = 0;
+    public static final int LEFTSTICK_X = 1;
+    public static final int RIGHTSTICK_X = 2;
+    public static final int DRIVETRAIN_LEFT_FRONT_CANSPARKMAX = 0;
+    public static final int DRIVETRAIN_LEFT_REAR_CANSPARKMAX = 2;
+    public static final int DRIVETRAIN_RIGHT_FRONT_CANSPARKMAX = 3;
+    public static final int DRIVETRAIN_RIGHT_REAR_CANSPARKMAX = 4;
+
+    public static final double LIMITER = 0.8;
+
+  }
+ 
+  public static class PistonClampConstants {
+    public static final int PISTONCLAMP_CONTROLLER = 1;
+    public static final int PISTONCLAMP_SOLENOID30FOWARD = 0;
+    public static final int PISTONCLAMP_SOLENOID30REVERSE = 1;
+    public static final int PISTONCLAMP_SOLENOID60FOWARD = 2;
+    public static final int PISTONCLAMP_SOLENOID60REVERSE = 3;
   }
 }

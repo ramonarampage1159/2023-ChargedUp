@@ -21,7 +21,7 @@ public class ArcadeDriveCmd extends CommandBase {
     this.speedFunction = speedFunction;
     this.turnFunction = turnFunction;
     this.driveSubsystem = driveSubsystem;
-    addRequirements(driveSubsystem);
+    addRequirements(driveSubsystem); 
   
   }
 
